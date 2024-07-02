@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar{
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    align-items: center;
+    background-color: rgb(109 40 217);
+    height: 10%;
+    width: 100%;
+
+}
+.button{
+    background-color: rgb(109 40 217);
+    
+}
+.content{
+    padding-top: 40px;
+}
+.name{
+    padding-left: 140px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.oswald-unique {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* or any desired weight */
+    font-style: normal;
+  }
+.Home{
+    padding-left: 100%;
+    right: 0;
+    position: relative;
+    color: white;
+    text-transform:capitalize;  
+    text-decoration: none;
+    cursor: pointer;
+}  
+.Home:hover{
+    text-decoration: underline;
+}
+.navbar-item{
+    margin-left: 1rem;
+    
+}
+.about{
+    padding-left: 101%;
+    color: white;
+    position: relative;
+    text-transform:capitalize;  
+    text-decoration: none;
+    cursor: pointer;
+}
+.about:hover{
+    text-decoration:underline;
+}
+.Project{
+    margin-left: 70%;
+    color: white;
+    position: relative;
+    text-transform:capitalize;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-container{
+    display: flex;
+    justify-content:flex-end;
+    width: 65%;
+}
+.Project:hover{
+    text-decoration:underline;
+}
+.contact{
+    margin-left: 70%;
+    position: relative;
+    color: white;
+    text-transform:capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact:hover{
+    text-decoration:underline;
+}
