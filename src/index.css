@@ -191,6 +191,10 @@ body{
     height: 700px;
     
   }
+  .ss{
+    display: flex;
+    justify-content: center;
+  }
   .Projects h1{
     display: flex;
     justify-content:center;
@@ -211,11 +215,11 @@ body{
     text-align: center;
     
     
-  }
+  } 
   .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
   }
   .cards button{
