@@ -3,7 +3,16 @@ import '../index.css'
 import Image from'/8771935.jpg'
 import Image1 from '/Image1.jpg'
 import Static from './Static'
-
+import css from '/919826.png'
+import Reacti from '/React-icon.svg.png'
+import html from '/HTML5_logo_and_wordmark.svg.png'
+import js from '/jslogo.png'
+import tl from '/png-transparent-tailwind-css-hd-logo.png'
+import python from '/Python-logo-notext.svg.png'
+import django from '/download.png'
+import node from '/node.png'
+import express from '/express.png'
+import mongo from '/mongo.png'
 const About = () => {
   const [isAnimated, setIsAnimated] = useState(false);
 
@@ -53,23 +62,26 @@ Percentage: 74.6%</li></ul></p>
       </div>
       <div className='Skills'>
       <h1 className='anton-regular h1' >Skills</h1>
-
-      <h2 className='p kanit-semibold'>Front-End Technologies :</h2>
-      <Static technology="React" percentage={60} animate={isAnimated} />
-      <Static technology="HTML " percentage={80} animate={isAnimated} />
-      <Static technology="CSS " percentage={70} animate={isAnimated} />
-      <Static technology="Bootstrap " percentage={70} animate={isAnimated} />
-      <Static technology="JS" percentage={75} animate={isAnimated} />
-      <Static technology="TailWindCSS" percentage={60} animate={isAnimated} />
-       <br /><h2 className='p kanit-semibold'>Back-end Technologies</h2>     
-       <Static technology="Python" percentage={70} animate={isAnimated} />
-       <Static technology="Node.js" percentage={70} animate={isAnimated} />
-       <Static technology="Express" percentage={60} animate={isAnimated} />
-       <Static technology="Django" percentage={65} animate={isAnimated} />
-        <br />
-        <h2 className='p kanit-semibold'>Databases</h2>
-        <Static technology="MongoDB" percentage={70} animate={isAnimated} />
-              
+      
+      <h2 className='p kanit-semibold '>Front-End Technologies :</h2>
+      <div className='frontend'>
+  <img src={Reacti} width={100} alt="React Logo" />
+  <img src={css} width={100} alt="CSS Logo" />
+  <img src={html} width={100} alt="HTML Logo" />
+  <img src={js} width={100} alt="JavaScript Logo" />
+  <img src={tl} width={100} alt="Tailwind CSS Logo" />
+</div> <h2 className='p kanit-semibold '>Back-End Technologies :</h2>
+      <div className='frontend'>
+  <img src={python} width={100} alt="React Logo" />
+  <img src={django} width={100} alt="CSS Logo" />
+  <img src={node} width={100} alt="HTML Logo" />
+  <img src={express} width={100} alt="JavaScript Logo" />
+</div>        
+<h2 className='p kanit-semibold'>Databases</h2>
+<div className='frontend'>
+  <img src={mongo} width={100} alt="React Logo" />
+  
+</div>
 <br />
 
       </div>

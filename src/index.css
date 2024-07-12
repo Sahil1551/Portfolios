@@ -191,6 +191,24 @@ body{
     height: 700px;
     
   }
+  .frontend {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adds space between the images */
+    flex-wrap: wrap; /* Allows images to wrap to the next line if necessary */
+    padding: 20px; /* Adds padding around the container */
+  }
+  
+  .frontend img { /* Adds a border around the images */
+    border-radius: 10px; /* Rounds the corners of the images */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adds transition effects for hover state */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the images */
+  }
+  
+  .frontend img:hover {
+    transform: scale(1.1); /* Scales up the images on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increases the shadow on hover */
+  }
   .ss{
     display: flex;
     justify-content: center;
